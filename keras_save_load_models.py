@@ -2,6 +2,7 @@
 # dataset: http://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data
 # MLP for Pima Indians Dataset serialize to JSON and HDF5
 # import dataset and save model weights for use later
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.models import model_from_json
