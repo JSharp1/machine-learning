@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @JSharp1
- Sign out
- Unwatch 1
-  Star 0
-  Fork 0 JSharp1/machine-learning
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathmachine-learning/data preprocessing/image augmentation.py
-7737b74  33 seconds ago
-@JSharp1 JSharp1 Create image augmentation.py
-1 contributor
-RawBlameHistory    
-141 lines (125 sloc)  4.74 KB
 # Thank you to Vivek Yadav for his super write up
 # https://medium.com/self-driving-cars/image-augmentation-bc75fd02a0ff
 #augment dings 20 times
