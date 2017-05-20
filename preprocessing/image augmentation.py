@@ -60,6 +60,11 @@ def preprocessImage(image):
     #image = image/255.-.5
     return image
 
+def flip_image(image, steer):
+    image = cv2.flip(image,1)
+    steer_ang = steer*-1
+    return image, steer_ang 
+
 def jitterImage(I):
     """ perturb the image.
     rotating it by between [-15,15],
@@ -130,11 +135,8 @@ def checkAugmentations():
     cv2.waitKey(5000) & 0xFF
     cv2.destroyAllWindows()
 
-
 def main():
     checkAugmentations()
-
-
 
 if __name__ == '__main__':
     main()
