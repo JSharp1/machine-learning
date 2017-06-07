@@ -101,8 +101,7 @@ while ~isempty(email_contents)
 
 %After preprocessing, given str (a word) check to see if it is in the
 %vocabList if so append the index of the word in vocablist to word_indices
-
-word_indices = [word_indices; find(ismember(vocabList, str))]
+word_indices = [word_indices; find(ismember(vocabList, str))];
 
     % =============================================================
 
