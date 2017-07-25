@@ -1,6 +1,7 @@
 # Thank you to Vivek Yadav for his super write up
 # https://medium.com/self-driving-cars/image-augmentation-bc75fd02a0ff
-#augment dings 20 times
+# a collection of image augmentation techniques
+
 import cv2
 import numpy as np
 import math
